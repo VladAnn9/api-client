@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VladAnn9/api-client.git"
+    "url": "git+https://github.com/VladAnn9/api-crypto-client.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "api-crypto-client",
@@ -33,9 +33,9 @@
   "author": "Vladyslav Ovsiienko (vladovsienko1999@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VladAnn9/api-client/issues"
+    "url": "https://github.com/VladAnn9/api-crypto-client/issues"
   },
-  "homepage": "https://github.com/VladAnn9/api-client#readme",
+  "homepage": "https://github.com/VladAnn9/api-crypto-client#readme",
   "dependencies": {
     "@types/jest": "^26.0.14",
     "isomorphic-unfetch": "^3.0.0"
