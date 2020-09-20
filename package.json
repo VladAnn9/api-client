@@ -1,5 +1,5 @@
 {
-  "name": "api-crypto-client",
+  "name": "@vladann9/api-crypto-client",
   "version": "1.0.0",
   "description": "Flexible and small API client for interaction with crypto API",
   "source": "src/index.ts",
@@ -19,10 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VladAnn9/api-crypto-client.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "url": "git://github.com/VladAnn9/api-crypto-client.git"
   },
   "keywords": [
     "api-crypto-client",
