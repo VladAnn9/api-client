@@ -2,13 +2,14 @@
   "name": "api-client",
   "version": "1.0.0",
   "description": "Flexible and small API client for interaction with crypto API",
-  "source": "src/index.ts",          
-  "main": "dist/index.js",          
+  "source": "src/index.ts",
+  "main": "dist/index.js",
   "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",  
+  "unpkg": "dist/index.umd.js",
   "scripts": {
-    "build": "microbundle",   
-    "dev": "microbundle watch"
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,12 @@
   },
   "homepage": "https://github.com/VladAnn9/api-client#readme",
   "dependencies": {
+    "@types/jest": "^26.0.14",
     "isomorphic-unfetch": "^3.0.0"
   },
   "devDependencies": {
-    "microbundle": "^0.12.3"
+    "jest": "^26.4.2",
+    "microbundle": "^0.12.3",
+    "nock": "^13.0.4"
   }
 }

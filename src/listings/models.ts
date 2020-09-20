@@ -1,16 +1,16 @@
 import { Status } from '../models'
 
 export enum SortEnum {
-  market_cap,
-  name,
-  price,
-  volume_7d,
-  volume_30d
+  market_cap = 'market_cap',
+  name = 'name',
+  price = 'price',
+  volume_7d = 'volume_7d',
+  volume_30d = 'volume_30d'
 }
 
 export type Params = {
   limit?: number
-  sortBy?: SortEnum
+  sort?: SortEnum
 }
 
 export interface ListingsModel {
