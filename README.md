@@ -1,6 +1,6 @@
 
 <h1 align="center">
-api-client
+api-crypto-client
 </h1>
 <p align="center">
 Flexible and small client for interaction with crypto API written in Typescript.
@@ -9,15 +9,15 @@ Flexible and small client for interaction with crypto API written in Typescript.
 ## 🔧 Install
 
 ```sh
-$ npm install api-client
+$ npm install api-crypto-client
 ```
 
 ## 🌐 Usage
 
-Import `api-client` module in your project and initialize it with your [apiKey](https://pro.coinmarketcap.com).
+Import `api-crypto-client` module in your project and initialize it with your [apiKey](https://pro.coinmarketcap.com).
 
 ```js
-import ApiClient from 'api-client'
+import ApiClient from 'api-crypto-client'
 
 const CryptoClient = new ApiClient({ apiKey: '%apiKey%' })
 

@@ -1,5 +1,5 @@
 {
-  "name": "api-client",
+  "name": "api-crypto-client",
   "version": "1.0.0",
   "description": "Flexible and small API client for interaction with crypto API",
   "source": "src/index.ts",
@@ -21,9 +21,17 @@
     "type": "git",
     "url": "git+https://github.com/VladAnn9/api-client.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "api-crypto-client",
+    "cryptocurrency",
+    "typescript",
+    "api-client"
+  ],
+  "author": "Vladyslav Ovsiienko (vladovsienko1999@gmail.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/VladAnn9/api-client/issues"
   },
