@@ -11,6 +11,12 @@
     "dev": "microbundle watch",
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VladAnn9/api-client.git"
