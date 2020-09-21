@@ -1,10 +1,9 @@
 import { applyMixins } from './utils'
 import { Base } from './base'
-import { Listings } from './listings'
-import { Metadata } from './metadata'
+import { CryptoPrice } from './pricing'
 
 class ApiClient extends Base {}
-interface ApiClient extends Listings, Metadata {}
-applyMixins(ApiClient, [Listings, Metadata])
+interface ApiClient extends CryptoPrice {}
+applyMixins(ApiClient, [CryptoPrice])
 
 export default ApiClient
